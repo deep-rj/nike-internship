@@ -1,0 +1,629 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 9300.17.0227.2100                                -->
+<workbook source-build='9.3.14 (9300.17.0227.2100)' source-platform='win' version='9.3' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='SP18_results' inline='true' name='textscan.10s5ek804fzina17314h00f2wrse' version='9.3'>
+      <connection class='textscan' directory='C:/Users/RJha3/Documents/Digital First Comms Results/SP18' filename='SP18_results.csv' password='' server=''>
+        <relation name='SP18_results.csv' table='[SP18_results#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Tracking Code' ordinal='0' />
+            <column datatype='string' name='Type' ordinal='1' />
+            <column datatype='string' name='Category' ordinal='2' />
+            <column datatype='string' name='Geo' ordinal='3' />
+            <column datatype='string' name='Channel' ordinal='4' />
+            <column datatype='string' name='Tier' ordinal='5' />
+            <column datatype='string' name='Season (v8) (evar8)' ordinal='6' />
+            <column datatype='string' name='Order Type (v43) (evar43)' ordinal='7' />
+            <column datatype='real' name='Revenue' ordinal='8' />
+            <column datatype='string' name='Territory' ordinal='9' />
+            <column datatype='string' name='Campaign_Season' ordinal='10' />
+            <column datatype='string' name='unique_id' ordinal='11' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>Tracking Code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Tracking Code]</local-name>
+            <parent-name>[SP18_results.csv]</parent-name>
+            <remote-alias>Tracking Code</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Type]</local-name>
+            <parent-name>[SP18_results.csv]</parent-name>
+            <remote-alias>Type</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Category</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Category]</local-name>
+            <parent-name>[SP18_results.csv]</parent-name>
+            <remote-alias>Category</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Geo</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Geo]</local-name>
+            <parent-name>[SP18_results.csv]</parent-name>
+            <remote-alias>Geo</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Channel</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Channel]</local-name>
+            <parent-name>[SP18_results.csv]</parent-name>
+            <remote-alias>Channel</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tier</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Tier]</local-name>
+            <parent-name>[SP18_results.csv]</parent-name>
+            <remote-alias>Tier</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Season (v8) (evar8)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Season (v8) (evar8)]</local-name>
+            <parent-name>[SP18_results.csv]</parent-name>
+            <remote-alias>Season (v8) (evar8)</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Order Type (v43) (evar43)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Order Type (v43) (evar43)]</local-name>
+            <parent-name>[SP18_results.csv]</parent-name>
+            <remote-alias>Order Type (v43) (evar43)</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Revenue</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Revenue]</local-name>
+            <parent-name>[SP18_results.csv]</parent-name>
+            <remote-alias>Revenue</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;double&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Territory</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Territory]</local-name>
+            <parent-name>[SP18_results.csv]</parent-name>
+            <remote-alias>Territory</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Campaign_Season</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Campaign_Season]</local-name>
+            <parent-name>[SP18_results.csv]</parent-name>
+            <remote-alias>Campaign_Season</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>unique_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[unique_id]</local-name>
+            <parent-name>[SP18_results.csv]</parent-name>
+            <remote-alias>unique_id</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[SP18_results.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Email Campaign (alt)' datatype='string' name='[Calculation_1274237254765809664]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF CONTAINS([unique_id], &apos;intro&apos;) THEN &apos;intro&apos;&#13;&#10;ELSEIF CONTAINS([unique_id], &apos;welcome&apos;) THEN &apos;seaswel&apos;&#13;&#10;ELSE [unique_id]&#13;&#10;END' />
+      </column>
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Order Type' datatype='string' name='[Order Type (v43) (evar43)]' role='dimension' type='nominal' />
+      <column caption='Season' datatype='string' name='[Season (v8) (evar8)]' role='dimension' type='nominal' />
+      <column caption='Email Campaign' datatype='string' name='[unique_id]' role='dimension' type='nominal' />
+      <column-instance column='[Order Type (v43) (evar43)]' derivation='None' name='[none:Order Type (v43) (evar43):nk]' pivot='key' type='nominal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.603365' measure-ordering='alphabetic' measure-percentage='0.396635' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Order Type (v43) (evar43):nk]' type='palette'>
+            <map to='#1f77b4'>
+              <bucket>&quot;at once&quot;</bucket>
+            </map>
+            <map to='#2ca02c'>
+              <bucket>&quot;futures_contract&quot;</bucket>
+            </map>
+            <map to='#ff7f0e'>
+              <bucket>&quot;futures&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Breakup by Email'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='SP18_results' name='textscan.10s5ek804fzina17314h00f2wrse' />
+          </datasources>
+          <datasource-dependencies datasource='textscan.10s5ek804fzina17314h00f2wrse'>
+            <column caption='Email Campaign (alt)' datatype='string' name='[Calculation_1274237254765809664]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF CONTAINS([unique_id], &apos;intro&apos;) THEN &apos;intro&apos;&#13;&#10;ELSEIF CONTAINS([unique_id], &apos;welcome&apos;) THEN &apos;seaswel&apos;&#13;&#10;ELSE [unique_id]&#13;&#10;END' />
+            </column>
+            <column caption='Order Type' datatype='string' name='[Order Type (v43) (evar43)]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Revenue]' role='measure' type='quantitative' />
+            <column caption='Season' datatype='string' name='[Season (v8) (evar8)]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_1274237254765809664]' derivation='None' name='[none:Calculation_1274237254765809664:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Order Type (v43) (evar43)]' derivation='None' name='[none:Order Type (v43) (evar43):nk]' pivot='key' type='nominal' />
+            <column-instance column='[Season (v8) (evar8)]' derivation='None' name='[none:Season (v8) (evar8):nk]' pivot='key' type='nominal' />
+            <column-instance column='[Revenue]' derivation='Sum' name='[sum:Revenue:qk]' pivot='key' type='quantitative' />
+            <column caption='Email Campaign' datatype='string' name='[unique_id]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='label'>
+            <format attr='text-orientation' field='[textscan.10s5ek804fzina17314h00f2wrse].[none:Calculation_1274237254765809664:nk]' value='-90' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[textscan.10s5ek804fzina17314h00f2wrse].[none:Order Type (v43) (evar43):nk]' />
+              <lod column='[textscan.10s5ek804fzina17314h00f2wrse].[none:Season (v8) (evar8):nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[textscan.10s5ek804fzina17314h00f2wrse].[sum:Revenue:qk]</rows>
+        <cols>[textscan.10s5ek804fzina17314h00f2wrse].[none:Calculation_1274237254765809664:nk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='Breakup by Geo/Email'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='SP18_results' name='textscan.10s5ek804fzina17314h00f2wrse' />
+          </datasources>
+          <datasource-dependencies datasource='textscan.10s5ek804fzina17314h00f2wrse'>
+            <column datatype='string' name='[Geo]' role='dimension' type='nominal' />
+            <column caption='Order Type' datatype='string' name='[Order Type (v43) (evar43)]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Revenue]' role='measure' type='quantitative' />
+            <column caption='Season' datatype='string' name='[Season (v8) (evar8)]' role='dimension' type='nominal' />
+            <column-instance column='[Geo]' derivation='None' name='[none:Geo:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Order Type (v43) (evar43)]' derivation='None' name='[none:Order Type (v43) (evar43):nk]' pivot='key' type='nominal' />
+            <column-instance column='[Season (v8) (evar8)]' derivation='None' name='[none:Season (v8) (evar8):nk]' pivot='key' type='nominal' />
+            <column-instance column='[unique_id]' derivation='None' name='[none:unique_id:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Revenue]' derivation='Sum' name='[sum:Revenue:qk]' pivot='key' type='quantitative' />
+            <column caption='Email Campaign' datatype='string' name='[unique_id]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='label'>
+            <format attr='text-orientation' field='[textscan.10s5ek804fzina17314h00f2wrse].[none:unique_id:nk]' value='-90' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[textscan.10s5ek804fzina17314h00f2wrse].[none:Order Type (v43) (evar43):nk]' />
+              <lod column='[textscan.10s5ek804fzina17314h00f2wrse].[none:Season (v8) (evar8):nk]' />
+            </encodings>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-orientation' value='-90' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[textscan.10s5ek804fzina17314h00f2wrse].[sum:Revenue:qk]</rows>
+        <cols>([textscan.10s5ek804fzina17314h00f2wrse].[none:Geo:nk] / [textscan.10s5ek804fzina17314h00f2wrse].[none:unique_id:nk])</cols>
+      </table>
+    </worksheet>
+  </worksheets>
+  <windows source-height='28'>
+    <window class='worksheet' name='Breakup by Email'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card pane-specification-id='0' param='[textscan.10s5ek804fzina17314h00f2wrse].[none:Order Type (v43) (evar43):nk]' type='color' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[textscan.10s5ek804fzina17314h00f2wrse].[none:Calculation_1274237254765809664:nk]</field>
+            <field>[textscan.10s5ek804fzina17314h00f2wrse].[none:Order Type (v43) (evar43):nk]</field>
+            <field>[textscan.10s5ek804fzina17314h00f2wrse].[none:Season (v8) (evar8):nk]</field>
+            <field>[textscan.10s5ek804fzina17314h00f2wrse].[none:unique_id:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+    <window class='worksheet' maximized='true' name='Breakup by Geo/Email'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card pane-specification-id='0' param='[textscan.10s5ek804fzina17314h00f2wrse].[none:Order Type (v43) (evar43):nk]' type='color' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[textscan.10s5ek804fzina17314h00f2wrse].[none:Calculation_1274237254765809664:nk]</field>
+            <field>[textscan.10s5ek804fzina17314h00f2wrse].[none:Geo:nk]</field>
+            <field>[textscan.10s5ek804fzina17314h00f2wrse].[none:Order Type (v43) (evar43):nk]</field>
+            <field>[textscan.10s5ek804fzina17314h00f2wrse].[none:Season (v8) (evar8):nk]</field>
+            <field>[textscan.10s5ek804fzina17314h00f2wrse].[none:unique_id:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Breakup by Email' width='192'>
+      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
+      Kqb9FzmK3JghefjlAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Breakup by Geo/Email' width='192'>
+      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
+      FINxxf8Cmtj+MndxVb4AAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
